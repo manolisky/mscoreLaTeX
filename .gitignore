@@ -2,3 +2,5 @@
 *.dvi
 *.lof
 *.log
+*.DS_Store
+mscores/.mscbackup/*

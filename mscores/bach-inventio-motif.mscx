@@ -35,7 +35,7 @@
     <Order id="orchestral" customized="1">
       <name>Ορχήστρα</name>
       <instrument id="piano">
-        <family id="keyboards">Πληκτρόφορα</family>
+        <family id="keyboards">Keyboards</family>
         </instrument>
       <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
         <family>flutes</family>
