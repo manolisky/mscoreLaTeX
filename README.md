@@ -4,11 +4,7 @@ This is a proof of concept package for an integration of MuseScore and LaTeX. Sp
 
 The purpose of the package is to make it easier and faster to edit notation and displaying it in your document, by just saving your changes in MuseScore and compiling your LaTeX code. You can a demo i the video below.
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://youtu.be/V_S8-5qJfAw" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
+https://user-images.githubusercontent.com/8700107/113226188-36fa7500-9298-11eb-82fc-088076c804cb.mp4
 
 You can run the example above, if you have LaTeX and the programmes listed installed:
 
