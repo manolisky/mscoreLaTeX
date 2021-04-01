@@ -66,3 +66,7 @@ Also to be a respectable package the above should be package options, or have a 
 ### speed
 
 Right now as it stands, the speed is ok for a handful of MuseScore files, but the `mscore -o` command actually opens an instance of MuseScore without the gui, and would be really slow at processing a lot of files independently. That may be solved with the batch process command that the `mscore` cli provides, but the way to implement it is leagues above me.
+
+### contributions
+
+Both the MuseScore and the LaTeX communities could be really helpful in making this a really useful package for musicologist, music historians and musicians, as i alone am not well versed to make a robust LaTeX package, or to efficiently manipulate the XML files of MuseScore.
