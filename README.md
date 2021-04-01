@@ -1,6 +1,6 @@
 # mscoreLaTeX
 
-This is a proof of concept package for an integration of MuseScore and LaTeX. Specifically including scores or notation (e.g. musical examples for education, examples academic research papers, critical editions with texts etc) to LaTeX documents directly from the MuseScore file (`.mscx`, `.mscz`), MusicXML (`.musicxml`, `.mxl`), or midi file (`.mid`, `.midi`) and probably more.
+This is a proof of concept package for an integration of MuseScore and LaTeX. Specifically including scores or notation (e.g. exercises for education, examples for academic research papers, scores for critical editions complimented with texts etc) to LaTeX documents directly from the MuseScore file (`.mscx`, `.mscz`), MusicXML (`.musicxml`, `.mxl`), or midi file (`.mid`, `.midi`) and probably more.
 
 The purpose of the package is to make it easier and faster to edit notation and displaying it in your document, by just saving your changes in MuseScore and compiling your LaTeX code. You can watch a demo in the video below.
 
