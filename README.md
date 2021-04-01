@@ -34,14 +34,14 @@ Tha macro then runs two cli commands.
 mscore -o #1.pdf #1.msc*
 ```
 
-that converts the MuseScore file to pdf, just like it would do if you exported from the gui app
+that converts the MuseScore file to pdf, just like it would do if you exported from the gui app, and
 
 ```bash
 pdfcrop #1.pdf #1.pdf
 ```
 that crops the white space of the pdf, to make it ready for inclusion as a graphic.
 
-After tha `\includegraphics{...}` is used, from the `graphicx.sty` package to include the pdf.
+After that, `\includegraphics{...}` is used, from the `graphicx.sty` package, display the graphics.
 
 In my example I put the notation inside the figure environment, but because they are just graphics they are really versatile.
 
@@ -59,7 +59,7 @@ The formatting of the notation to be included should somehow be aware of the cur
 - notation size should depend on font size
 - same margins etc.
 
-This can be done by editing the MusicXML, or MuseScore files properties before converting to pdf, or even better to have a specific style file for MuseScore, that gets called with the option `mscore -S`, so the original files are not changed.
+This can be done by programmatically editing the MusicXML, or MuseScore files properties before converting to pdf, or even better to have a specific style file for MuseScore, that gets called with the option `mscore -S`, so the original files are not changed.
 
 Also to be a respectable package the above should be package options, or have a setup macro, to configure important formatting options like the notation font to be used.
 
